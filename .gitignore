@@ -1,0 +1,14 @@
+# Segredos e configuracoes locais
+secrets.yaml
+**/secrets.yaml
+*.env
+.env.*
+!.env.example
+# Artefatos de compilacao
+.esphome/
+.pio/
+*.log
+*.bin
+*.elf
+# Backups locais
+*.bak
